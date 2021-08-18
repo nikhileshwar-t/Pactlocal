@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+  }
+  
+/* .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+  } */
+
+.card {
+    background-color:white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 60px 40px 40px 40px;
+    z-index: 0;
+    display: none
+}
+
+.card.show {
+    display: block
+}
+
+.form-control-label {
+    font-style: normal;
+    font-size: 22px !important;
+    color: black
+   
+    
+}
+
+input,
+textarea {
+    background-color:whitesmoke!important;
+    padding: 8px 15px 8px 15px;
+    border-radius: 0px !important;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px !important;
+    color: black !important;
+    font-weight: 300
+}
+
+.fa-long-arrow-right {
+    color: #00008B;
+    background-color: #fff;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 3px solid #00008B;
+    position: absolute;
+    /* left: -28px; */
+    /* top: 12px; */
+    cursor: pointer;
+}
+
+.fa-long-arrow-right:hover{
+    background-color: #BC9BD9;
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

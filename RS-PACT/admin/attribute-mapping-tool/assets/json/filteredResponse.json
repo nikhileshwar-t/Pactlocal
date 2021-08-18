@@ -1,0 +1,25 @@
+{
+    "params": {
+      "query": {
+        "filters": {
+          "typesCriterion": [
+            "entityManageModel",
+            "entityValidationModel",
+            "entityDisplayModel"
+          ]
+        },
+        "id": "plant_entityManageModel"
+      },
+      "contexts": [],
+      "fields": {
+        "attributes": [
+          "_ALL"
+        ]
+      },
+      "options": {
+        "coalesceOptions": {
+          "enhancerAttributes": []
+        }
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "params": {
+        "query": {
+            "names": [
+                "thing"
+            ],
+            "filters": {
+                "typesCriterion": [
+                    "entityContextModel"
+                ],
+                "excludeNonContextual": true
+            }
+        },
+        "fields": {
+            "attributes": [
+                "_ALL"
+            ],
+            "properties": [
+                "_ALL"
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "metaInfo": {
+    "dataIndex": "entityModel",
+    "collectionName": "entityModels",
+    "responseObjectName": "response"
+  },
+  "entityModels": [
+    {
+      "id": "",
+      "name": "",
+      "type": "graphProcessModel",
+      "domain": "generic",
+      "properties": {
+        "defaultValueSource": "{{TENANT_SOURCE}}",
+        "defaultValueLocale": "{{TENANT_LOCALE}}",        
+        "graphProcessPath": "",
+        "matchRulesOperator": "",
+        "matchRules": [
+        ]
+      },
+      "data" : {}
+    }
+  ]
+}

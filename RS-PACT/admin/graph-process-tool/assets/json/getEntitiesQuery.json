@@ -1,0 +1,12 @@
+{
+    "params": {
+      "query": {
+        "domains": ["thing","digitalAsset"],
+        "filters": {
+        "typesCriterion": [
+          "entityType"
+        ]
+        }
+      }
+    }
+  }

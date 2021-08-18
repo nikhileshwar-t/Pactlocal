@@ -1,0 +1,17 @@
+{
+    "params": {
+      "query": {
+          "filters": {
+          "typesCriterion": [
+            "attributeModel"
+          ]
+        }
+      },
+      "fields": {
+        "properties": [
+          "externalName",
+          "dataType"
+        ]
+      }    
+    }
+  }

@@ -1,0 +1,27 @@
+{
+    "params": {
+        "query": {
+         
+            "contexts": [
+                {}
+            ],
+            "filters": {
+                "typesCriterion": [
+                    "businessRule"
+                ]
+            }
+        },
+        "nonContextual": false,
+        "fields": {
+            "properties": [
+                "_ALL"
+            ],
+            "attributes": [
+                "_ALL"
+            ],
+            "relationships": [
+                "_ALL"
+            ]
+        }
+    }
+}

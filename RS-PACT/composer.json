@@ -1,0 +1,8 @@
+{
+    "require": {
+        "auth0/auth0-php": "~5.0",
+        "simplesamlphp/saml2": "3.0",
+        "magium/active-directory": "^1.1",
+        "mongodb/mongodb": "^1.7"
+    }
+}

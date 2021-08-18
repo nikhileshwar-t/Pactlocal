@@ -1,0 +1,22 @@
+{
+    "params": {
+        "query": {
+            "ids": [],
+            "filters": {
+                "typesCriterion": [
+                    "entityManageModel"
+                ],
+                "allContextual": true
+            }
+        },
+        "fields": {
+            "relationships": [
+                "_ALL"
+            ],
+            "attributes" : [
+                "_ALL"
+            ]
+        },
+        "options": {}
+    }
+}

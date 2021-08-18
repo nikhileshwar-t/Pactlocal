@@ -1,0 +1,14 @@
+{
+  "params": {
+      "query": {
+          "domains": [
+              "thing"
+          ],
+          "filters": {
+              "typesCriterion": [
+                  "entityType"
+              ]
+          }
+      }
+  }
+}

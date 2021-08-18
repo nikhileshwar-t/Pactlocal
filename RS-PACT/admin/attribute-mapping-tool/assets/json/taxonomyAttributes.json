@@ -1,0 +1,17 @@
+{
+    "params": {
+    "query": {
+        "domain":"taxonomymodel",
+      "filters": {
+        "typesCriterion": [
+          "attributeModel"
+        ]
+      }
+    },
+        "fields": {
+            "attributes": [
+                "_ALL"
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "entityTypes": [
+      {
+        "entityType": "vendorvariant"
+      },
+      {
+        "entityType": "product"
+      }
+  
+    ],
+    "excludeattributelist": [
+  
+      {
+        "entityType": "variantitem",
+  
+        "attributelist": [
+  
+          {
+            "attributename": "businessentityid"
+          }
+        ]
+      }
+  
+    ],
+    "specificAttributeList": [
+      {
+        "entityType": "product",
+        "simpleattributelist": [
+          {
+            "attributename": "technology"
+          }
+        ]
+      },
+      {
+        "entityType": "vendorvariant",
+        "simpleattributelist": [
+          {
+            "attributename": "currency"
+          }
+        ],
+        "nestedattributelist": [
+          {
+            "nestedattributename": "methodofpayment",
+            "childattributename": "paymentmethodtype"
+          }
+        ]
+      }
+  
+    ],
+    "contextTypes": [
+      {
+        "contextType": "vendorcompany"
+      },
+      {
+        "contextType": "productcompany"
+      }
+    ],
+    "deleteinheritedvalue": "",
+    "valuetoconsiderfordelete": "CONNECTED - ACH",
+    "considerallgivenattribute":"No",
+    "environmentname": "rdpdsna07",
+    "tenantid": "brightstards",
+    "batchsize": 100,
+    "updateself": "No",
+    "updatecontext": "Yes",
+    "systemDataLocale": "en-US",
+    "analysismode": "On",
+    "deletevalue": "Yes",
+    "deleteattribute": "No",
+    "inputfordelete": {
+      "propertyname": "os",
+      "propertyvalue": "businessRule"
+    }
+  }

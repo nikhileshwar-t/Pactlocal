@@ -1,0 +1,370 @@
+/*--------------------------------------------------------------
+# Index page 
+--------------------------------------------------------------*/
+
+#header{
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.offering-card{  
+  height: 180px;
+  border-radius: 6px;
+  margin: 25px auto 5px auto;
+  box-shadow: 0px 0px 1.5px 1.5px lightgrey;		
+  cursor: pointer;
+}
+.offering-card h4{
+	padding: 0 10px
+} 
+
+.offering-card hr{
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#authdesc:hover h4, #wfdesc:hover h4, #rbldesc:hover h4, #uidesc:hover h4 {
+	color: white !important;
+}
+#authdesc p, #wfdesc p, #rbldesc p, #uidesc p {
+	font-size: 16px;
+	color: #494E51;
+	text-align: left;
+	padding: 0 25px;
+	font-weight: bold;
+  }
+  
+#authdesc .authsec, #wfdesc .wfsec, #rbldesc .rblsec, #uidesc .uisec {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+#authdesc {
+	background-color: white;	
+}
+#authdesc:hover {
+	background-color: #008AEF;
+}
+#authdesc .authsec {
+	background-image: url("../images/authmodel2.png");	
+}
+#authdesc:hover .authsec {
+	background-image: url("../images/authmodel1.png");
+}
+#authdesc h4 {
+  color:#008AEF !important;   
+}
+
+
+#wfdesc {
+	background-color: white;
+}
+#wfdesc:hover {
+	background-color: #38b449;
+}
+#wfdesc h4 {
+  color:#38b449 !important;   
+}
+#wfdesc .wfsec {
+	background-image: url("../images/wfmodel2.png");
+}
+#wfdesc:hover .wfsec {
+	background-image: url("../images/wfmodel3.png");
+}
+
+#rbldesc {
+	background-color: white;
+}
+#rbldesc:hover {
+	background-color: #604785;
+}
+#rbldesc h4 {
+  color:#604785 !important;   
+}
+#rbldesc .rblsec {
+	background-image: url("../images/rbleditor.png");
+}
+#rbldesc:hover .rblsec {
+	background-image: url("../images/rbleditor1.png");
+}
+
+#uidesc {
+	background-color: white;	
+}
+#uidesc:hover {
+	background-color: #FF8800;
+}
+#uidesc h4 { 
+  color:#FF8800 !important;   
+}
+#uidesc .uisec {
+	background-image: url("../images/uiconfig.png");
+}
+#uidesc:hover .uisec {
+	background-image: url("../images/uiconfig4.png");
+}
+
+input:focus {
+	outline: none;
+}
+.logo{padding-left: 10px;}
+.logo img {
+	height: 70px;    
+	float: left;
+}
+.logofooter img {
+	width: 160px;
+	float: left;
+}
+
+.logo  label {
+	font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: -70px;
+}
+
+
+/*--------------------------------------------------------------
+# Dashboard page 
+--------------------------------------------------------------*/
+
+
+.pact{
+	text-align: left;
+    padding: 10px;
+}
+
+tr.selected{
+	background-color: #B0BED9;
+}
+.avtar{
+	width: 40px;
+    padding-top: 0px;
+}
+/* Authorizatiom model section css  */
+.form-card {    
+    border-radius: 6px;
+    margin: 25px auto 0 auto;
+    box-shadow: 0px 0px 1.5px 1.5px lightgrey;
+    cursor: pointer;
+    padding: 10px;
+}
+.form-card > h4 { 
+  font-weight: bold;
+  text-align:left;
+}
+.form-card label {
+  float: left;
+  font-weight: bold;;
+}
+
+#form-section h4{
+  text-align:left;
+}
+
+#addrolesuser{
+  text-align: right;
+}
+.linkButtons {
+	float: right;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+
+
+.statusactive{
+	color: green;
+	cursor:pointer
+}
+.statusinactive{
+	color: red;
+	cursor:pointer
+}
+
+#notAuthorize{
+
+	padding: 130px 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* Workflow app model  */
+
+#upload{
+	margin-top:15px;           
+	background-color:white;
+	border-radius:7px;
+	box-shadow:3px 3px grey;
+	border: 2px solid grey;
+	font-weight: bold;
+}
+#upload input.submit {
+	display: inline-block;
+	border:#00b300;
+	border-radius:5px;
+	margin-top:-5px;
+	color: white;
+	cursor:pointer;
+	background-color:#00b300;
+	font-size:14px;
+	width:65px;
+	padding:4px 18px;
+}
+#upload h3 {
+	text-align: center;
+	font-size:25px;	
+	color:#696969;
+	font-weight: bold;
+	padding:10px;
+}
+#upload p {
+	font-size:18px;	
+	color:#696969;
+	margin-top:10px;
+}
+#internalborder {
+	border:2px dotted grey;
+	margin: 20px;
+    	padding: 13px;
+    	text-align: center;
+	border-radius:5px;
+	background-color:rgba(0,0,0,0.1);
+}
+
+/* RBL Editor tool */
+.rbl-content {
+   text-align: left;
+   padding: 0 30px;
+   line-height: 2;
+}
+
+.rbl-content ul {
+   margin:0;
+}
+
+.rbl-content ul li { 
+   padding: 0;
+   margin: 0;
+}
+
+.rbl-download {
+    text-align: left;
+    padding: 30px;
+    line-height: 2;
+    text-align: center;
+}
+.rbl-download a {    
+    margin: 0 10px;
+    
+}
+.loadUserData {
+	float: right;
+}
+.container{
+max-width: none !important;
+}
+
+.al{
+    color: #004085 !important;
+font-weight: bold;
+}
+
+
+.nav-tabs>li>a.active, .nav-tabs>li>a.active:focus, .nav-tabs>li>a.active:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+} 
+
+ .nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px ;
+}
+
+.form-group.required .control-label:after{
+	color: red;
+	content: "*";
+	position: absolute;
+	margin-left: 3px;
+}
+.icofont-question-circle{
+	padding-left:10px;
+}
+.ac{
+	margin: 0 auto;
+}
+
+.indicator.online {
+    background: #28B62C;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    /* -webkit-animation: pulse-animation 2s infinite linear; */
+}
+
+/* @-webkit-keyframes pulse-animation {
+	0% { -webkit-transform: scale(1); }
+	25% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.2) }
+    75% { -webkit-transform: scale(1); }
+    100% { -webkit-transform: scale(1); }
+} */
+
+.indicator.offline {
+    background: #FF4136;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    
+}
+
+.nav-menu .feedback a {
+	background: #5777ba;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 8px; 
+     padding: 10px 25px;
+}
+
+ .nav-menu .feedback a:hover {
+    background: #748ec6;
+    color: #fff;
+} 
+
+.dtbtn{
+	margin: 0 0 -35px 0;
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	 */
+
+/* .dropdown:hover>.dropdown-menu {
+	display: block;
+  } */
+
+  .nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}

@@ -1,0 +1,11 @@
+{
+    "params": {
+        "query": {
+            "filters": {
+                "typesCriterion": [
+                ],
+                "allContextual": true
+            }
+        }
+    }
+}

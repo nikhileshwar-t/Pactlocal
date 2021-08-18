@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+  }
+
+.upload{
+    padding: 30px;
+    border: 1px solid #CCD4DA;
+    border-radius: 5px;
+    box-shadow: 2px 4px #CCD4DA;
+
+}
+
+table {
+    border: 1px #DDE2E6 solid;
+}
+
+.no-border {
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.zoom {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    transition: transform .2s; /* Animation */
+
+  }
+  
+  .zoom:hover {
+    transform: scale(6.5); /* (650% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

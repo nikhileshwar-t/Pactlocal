@@ -1,0 +1,20 @@
+{
+    "params": {
+        "query": {
+            "filters": {
+                "typesCriterion": [
+                    "graphProcessModel"
+                ]
+            }
+        },
+        "fields": {
+            "attributes": [
+                "_ALL"
+            ],
+            "relationships": [
+                "_ALL"
+            ],
+            "allContextual": true
+        }
+    }
+}
