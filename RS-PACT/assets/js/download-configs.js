@@ -104,13 +104,13 @@ async function getUiconfigs() {
       }
   }
 
-  for (var i = 0; i < configobjects.length; i++) {
-      if (configobjects[i].data.contexts[0].jsonData.config.hasOwnProperty("contextSchema")) {
-          configContexts.push(configobjects[i]);
-          configobjects.splice(i, 1)
-      }
+  // for (var i = 0; i < configobjects.length; i++) {
+  //     if (configobjects[i].data.contexts[0].jsonData.config.hasOwnProperty("contextSchema")) {
+  //         configContexts.push(configobjects[i]);
+  //         configobjects.splice(i, 1)
+  //     }
 
-  }
+  // }
   for (let i = 0; i < configobjects.length; i++) {
 
       let context = configobjects[i].data.contexts[0].context;
